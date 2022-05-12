@@ -2,17 +2,31 @@
 <html>
 
 <head>
-    <link>
+    <link rel="stylesheet" href="styles.css">
     <meta>
     <title>index</title>
 </head>
 
 <body>
     <header>
-        <div>lambang pukulenam</div>
         <nav>
-
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">news analysis</a></li>
+                <li><a href="#"></a>#</li>
+            </ul>
         </nav>
+        <div class="barMenu">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">
+            <img src="" alt="logopukulenam">
+        </div>
+
     </header>
     <main>
         <article>
@@ -20,8 +34,8 @@
                 <input type="text" name="penulis">
                 <input type="text" name="judul">
                 <div>
-                <label>Sampul <small style="color:green">(gambar)</small></label>
-                <input type="file" accept="image/*" name="gambar">
+                    <label>Sampul <small style="color:green">(gambar)</small></label>
+                    <input type="file" accept="image/*" name="gambar">
                 </div>
                 <input type="text" name="sumber image">
                 <input type="text" name="MKSA">
@@ -36,6 +50,17 @@
     <footer>
         pukul enam
     </footer>
+
+
 </body>
+<link rel="stylesheet" href="core.js">
+<script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create(document.querySelector('#news'))
+        .catch(error => {
+            console.error(error);
+        });
+</script>
 
 </html>
