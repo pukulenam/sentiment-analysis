@@ -8,7 +8,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Overview - SB Admin Pro</title>
-    <link href="styles.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
     <script data-search-pseudo-elements defer
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" crossorigin="anonymous"></script>
@@ -26,35 +26,14 @@
         <!-- * * Tip * * You can use text or an image for your navbar brand.-->
         <!-- * * * * * * When using an image, we recommend the SVG format.-->
         <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-        <img class="navbar-brand" src="puknam.png" alt="pukul enam">
+        <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html">SB Admin Pro</a>
         <!-- Navbar Search Input-->
         <!-- * * Note: * * Visible only on and above the lg breakpoint-->
-        <form class="form-inline me-auto d-none d-lg-block me-3">
-            <div class="input-group input-group-joined input-group-solid">
-                <input class="form-control pe-0" type="search" placeholder="Search" aria-label="Search" />
-                <div class="input-group-text"><i data-feather="search"></i></div>
-            </div>
-        </form>
         <!-- Navbar Items-->
         <ul class="navbar-nav align-items-center ms-auto">
+            <!-- Navbar Search Dropdown-->
             <!-- * * Note: * * Visible only below the lg breakpoint-->
-            <li class="nav-item dropdown no-caret me-3 d-lg-none">
-                <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="searchDropdown" href="#" role="button"
-                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                        data-feather="search"></i></a>
-                <!-- Dropdown - Search-->
-                <div class="dropdown-menu dropdown-menu-end p-3 shadow animated--fade-in-up"
-                    aria-labelledby="searchDropdown">
-                    <form class="form-inline me-auto w-100">
-                        <div class="input-group input-group-joined input-group-solid">
-                            <input class="form-control pe-0" type="text" placeholder="Search for..." aria-label="Search"
-                                aria-describedby="basic-addon2" />
-                            <div class="input-group-text"><i data-feather="search"></i></div>
-                        </div>
-                    </form>
-                </div>
-            </li>
-            <!-- Alerts Dropdown-->
+           
             <!-- User Dropdown-->
             <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
                 <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage"
@@ -66,8 +45,8 @@
                     <h6 class="dropdown-header d-flex align-items-center">
                         <img class="dropdown-user-img" src="assets/img/illustrations/profiles/profile-1.png" />
                         <div class="dropdown-user-details">
-                            <div class="dropdown-user-details-name">Valerie Luna</div>
-                            <div class="dropdown-user-details-email">vluna@aol.com</div>
+                            <div class="dropdown-user-details-name">user</div>
+                            <div class="dropdown-user-details-email">user</div>
                         </div>
                     </h6>
                     <div class="dropdown-divider"></div>
@@ -88,7 +67,7 @@
             <nav class="sidenav shadow-right sidenav-light">
                 <div class="sidenav-menu">
                     <div class="nav accordion" id="accordionSidenav">
-                        <!-- Sidenav Menu Heading (Core)-->
+                        <!-- Sidenav Menu Heading (Account)-->
                         <div class="sidenav-menu-heading">Core</div>
                         <!-- Sidenav Accordion (Dashboard)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse"
@@ -98,37 +77,53 @@
                             Dashboards
                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
-                        <!-- Sidenav Heading (Custom)-->
-                        <div class="sidenav-menu-heading">Custom</div>
-                        <!-- Sidenav Accordion (Pages)-->
-                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse"
-                            data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
-                            <div class="nav-link-icon"><i data-feather="grid"></i></div>
-                            Pages
-                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+                            <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+                                <a class="nav-link" href="dashboard-1.html">
+                                    Default
+                                    <span class="badge bg-primary-soft text-primary ms-auto">Updated</span>
+                                </a>
+                                <a class="nav-link" href="dashboard-2.html">Multipurpose</a>
+                                <a class="nav-link" href="dashboard-3.html">Affiliate</a>
+                            </nav>
+                        </div>
+                        <!-- Sidenav Heading (Addons)-->
+                        <div class="sidenav-menu-heading">Plugins</div>
+                        <!-- Sidenav Link (Charts)-->
+                        <a class="nav-link" href="charts.html">
+                            <div class="nav-link-icon"><i data-feather="bar-chart"></i></div>
+                            Charts
                         </a>
-                        <!-- Sidenav Accordion (Applications)-->
-                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse"
-                            data-bs-target="#collapseApps" aria-expanded="false" aria-controls="collapseApps">
-                            <div class="nav-link-icon"><i data-feather="globe"></i></div>
-                            Applications
-                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        <!-- Sidenav Link (Tables)-->
+                        <a class="nav-link" href="tables.html">
+                            <div class="nav-link-icon"><i data-feather="filter"></i></div>
+                            Tables
                         </a>
                     </div>
                 </div>
             </nav>
         </div>
+        <div id="layoutSidenav_content">
+            <main>
+
+            </main>
+            <footer class="footer-admin mt-auto footer-light">
+                <div class="container-xl px-4">
+                    <div class="row">
+                        <div class="col-md-6 small">Copyright &copy; Your Website 2021</div>
+                        <div class="col-md-6 text-md-end small">
+                            <a href="#!">Privacy Policy</a>
+                            &middot;
+                            <a href="#!">Terms &amp; Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
-    <!-- Sidenav Accordion (Flows)-->
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
