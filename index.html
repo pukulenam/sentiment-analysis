@@ -106,7 +106,63 @@
         </div>
         <div id="layoutSidenav_content">
             <main>
+                <h1>Converting News Page</h1>
+                <br>
+                <br>
 
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label for="inputPenulis">Penulis</label>
+                            <input type="text" class="form-control" id="penulis" placeholder="Masukkan Nama Penulis">
+                        </div>
+    
+                        <div class="col">
+                            <label for="inputPenulis">Sampul Berita</label>
+                            <input type="file" class="form-control" accept="image/*" id="sampulberita" placeholder="Last name">
+                        </div>
+                    </div><br>
+                    <div class = "row">
+                        <div class="col">
+                            <label for="inputPenulis">Sumber Gambar</label>
+                            <input type="text" class="form-control" id="source" placeholder="Masukkan Sumber Gambar">
+                        </div>
+
+                        <div class="col">
+                            <label for="inputPenulis">Judul</label>
+                            <input type="text" class="form-control" id="judul" placeholder="Masukkan Judul Berita">
+                        </div>
+                    </div><br>
+                    <div class = "row">
+                        <div class="col">
+                            <label for="inputPenulis">Referensi Berita</label>
+                            <input type="text" class="form-control" id="newsSource" placeholder="Masukkan Sumber Berita">
+                        </div>
+
+                        <div class="col">
+                            <label for="inputPenulis">Editor</label>
+                            <input type="text" class="form-control" id="editor" placeholder="Masukkan Nama Editor">
+                        </div>
+                    </div><br>
+
+                    <div class = "row">
+                        <div class="col-md-6">
+                            <label for="mksa">Analisis MKSA</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            <br>
+                            <button type="submit" class="btn btn-primary">Analisis MKSA</button>
+                    </div>
+
+                    <link rel="stylesheet" href="core.js">
+                        <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+                        <script>
+                             ClassicEditor
+                            .create(document.querySelector('#news'))
+                            .catch(error => {
+                             console.error(error);
+                             });
+                        </script>
+                </form>
             </main>
             <footer class="footer-admin mt-auto footer-light">
                 <div class="container-xl px-4">
