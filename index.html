@@ -14,10 +14,11 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.ckeditor.com/4.18.0/standard/ckeditor.js"></script>
 </head>
 
 <body class="nav-fixed">
-    <nav class="topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-white"
+    <nav class="topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-red-soft"
         id="sidenavAccordion">
         <!-- Sidenav Toggle Button-->
         <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle"><i
@@ -65,104 +66,76 @@
     </nav>
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
-            <nav class="sidenav shadow-right sidenav-light">
+            <nav class="sidenav shadow-right sidenav-dark">
                 <div class="sidenav-menu">
                     <div class="nav accordion" id="accordionSidenav">
                         <!-- Sidenav Menu Heading (Account)-->
                         <div class="sidenav-menu-heading">Core</div>
-                        <!-- Sidenav Accordion (Dashboard)-->
-                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse"
-                            data-bs-target="#collapseDashboards" aria-expanded="false"
-                            aria-controls="collapseDashboards">
-                            <div class="nav-link-icon"><i data-feather="activity"></i></div>
-                            Dashboards
-                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                        </a>
-                        <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
-                            <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
-                                <a class="nav-link" href="dashboard-1.html">
-                                    Default
-                                    <span class="badge bg-primary-soft text-primary ms-auto">Updated</span>
-                                </a>
-                                <a class="nav-link" href="dashboard-2.html">Multipurpose</a>
-                                <a class="nav-link" href="dashboard-3.html">Affiliate</a>
-                            </nav>
-                        </div>
-                        <!-- Sidenav Heading (Addons)-->
-                        <div class="sidenav-menu-heading">Plugins</div>
                         <!-- Sidenav Link (Charts)-->
-                        <a class="nav-link" href="charts.html">
-                            <div class="nav-link-icon"><i data-feather="bar-chart"></i></div>
-                            Charts
-                        </a>
                         <!-- Sidenav Link (Tables)-->
-                        <a class="nav-link" href="tables.html">
+                        <a class="nav-link" href="home.html">
                             <div class="nav-link-icon"><i data-feather="filter"></i></div>
-                            Tables
+                            Dashboard
+                        </a>
+                        <a class="nav-link" href="index.html">
+                            <div class="nav-link-icon"><i data-feather="bar-chart"></i></div>
+                            Converting
                         </a>
                     </div>
                 </div>
             </nav>
         </div>
+
         <div id="layoutSidenav_content">
-            <main>
-                <h1>Converting News Page</h1>
-                <br>
-                <br>
+            <main class="bg-img-repeat" style="background-image: url('webb.png')">
+                <div class="container-xl px-4">
+                    <h1>Converting News Page</h1>
+                    <br>
+                    <form>
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <label for="inputPenulis">Penulis</label>
+                                <input type="text" class="form-control" id="penulis"
+                                    placeholder="Masukkan Nama Penulis">
 
-                <form>
-                    <div class="row">
-                        <div class="col">
-                            <label for="inputPenulis">Penulis</label>
-                            <input type="text" class="form-control" id="penulis" placeholder="Masukkan Nama Penulis">
-                        </div>
-    
-                        <div class="col">
-                            <label for="inputPenulis">Sampul Berita</label>
-                            <input type="file" class="form-control" accept="image/*" id="sampulberita" placeholder="Last name">
-                        </div>
-                    </div><br>
-                    <div class = "row">
-                        <div class="col">
-                            <label for="inputPenulis">Sumber Gambar</label>
-                            <input type="text" class="form-control" id="source" placeholder="Masukkan Sumber Gambar">
-                        </div>
+                                <label for="inputPenulis">Sampul Berita</label>
+                                <input type="file" class="form-control" accept="image/*" id="sampulberita"
+                                    placeholder="Last name">
 
-                        <div class="col">
-                            <label for="inputPenulis">Judul</label>
-                            <input type="text" class="form-control" id="judul" placeholder="Masukkan Judul Berita">
-                        </div>
-                    </div><br>
-                    <div class = "row">
-                        <div class="col">
-                            <label for="inputPenulis">Referensi Berita</label>
-                            <input type="text" class="form-control" id="newsSource" placeholder="Masukkan Sumber Berita">
-                        </div>
+                                <label for="inputPenulis">Sumber Gambar</label>
+                                <input type="text" class="form-control" id="source"
+                                    placeholder="Masukkan Sumber Gambar">
+                                <label for="inputPenulis">Referensi Berita</label>
+                                <input type="text" class="form-control" id="newsSource"
+                                    placeholder="Masukkan Sumber Berita">
 
-                        <div class="col">
-                            <label for="inputPenulis">Editor</label>
-                            <input type="text" class="form-control" id="editor" placeholder="Masukkan Nama Editor">
-                        </div>
-                    </div><br>
+                                <label for="inputPenulis">Editor</label>
+                                <input type="text" class="form-control" id="editor" placeholder="Masukkan Nama Editor">
 
-                    <div class = "row">
-                        <div class="col-md-6">
-                            <label for="mksa">Analisis MKSA</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                <label for="mksa">Analisis MKSA</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                <br>
+                                <button type="submit" class="btn btn-primary">Analisis MKSA</button>
+                            </div>
                             <br>
-                            <button type="submit" class="btn btn-primary">Analisis MKSA</button>
-                    </div>
+                            <div class="col-xl-8">
+                                <label for="inputPenulis">Judul</label>
+                                <input type="text" class="form-control" id="judul" placeholder="Masukkan Judul Berita">
+                                <br>
+                                <br>
 
-                    <link rel="stylesheet" href="core.js">
-                        <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
-                        <script>
-                             ClassicEditor
-                            .create(document.querySelector('#news'))
-                            .catch(error => {
-                             console.error(error);
-                             });
-                        </script>
-                </form>
+                                <label>News</label>
+                                <textarea name="news" id="news" rows="10" cols="80">
+                                        </textarea>
+
+                                <br>
+                                <button type="submit" class="btn btn-primary">Summit News</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
             </main>
             <footer class="footer-admin mt-auto footer-light">
                 <div class="container-xl px-4">
@@ -181,6 +154,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script>
+        CKEDITOR.replace('news');
+    </script>
 </body>
 
 </html>
