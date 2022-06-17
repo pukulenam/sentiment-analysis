@@ -1,0 +1,68 @@
+<mj-section>
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+<mj-section background-color="#ffffff" >
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" color="#f85f56" align="left" font-size="20px" font-weight="bold" >
+          Catatan Penulis
+        </mj-text>
+     <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify" >
+Selamat pagi, para pembaca PukulEnam❤️<br>
+       Udah Jumat aja nih, yuk semangat sehari lagi sebelum menyambut weekend besok hihi😁 kira-kira weekend kali ini kalian mau ngapain? Self healing kah walaupun tetep sinting? hahaha🤣<br>
+       Jokes aside, akhir-akhir ini kayaknya banyak yang sakit huhu, apalagi cuaca sekarang ga nentu, kalian tetap jaga kesehatan yaa, jangan sampe sakit😔
+       
+       <br></br>
+       - Nanjaya Satya
+        </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#f85f56">
+  <mj-column>
+    
+    <mj-social font-size="15px" icon-size="40px" mode="horizontal">
+          <mj-social-element src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/instagram_logo.png" href="https://instagram.com/pukulenam.id" alt="Logo Instagram">
+            
+          </mj-social-element>
+          <mj-social-element src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/linkedin_logo.png" href="https://www.linkedin.com/company/pukulenam" alt="Logo LinkedIn">
+            
+          </mj-social-element>
+      	<mj-social-element src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/email_logo.png" href="mailto:contact@pukulenam.id" alt="Logo Email">
+            
+          </mj-social-element>
+ 
+        </mj-social>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#fca49f" border-bottom="solid 1px">
+  <mj-column >
+   <mj-text font-family="Open sans, Arial" color="#000000" align="left" line-height="1.5"> Ditulis oleh  <strong><a href="https://www.instagram.com/visakhawiguna/" style="color:#000000; ">Visakha Wiguna</a></strong>, <strong><a href="https://www.instagram.com/sasyasp/" style="color:#000000; ">Sasya Semitari</a></strong>, <strong><a href="https://www.instagram.com/hazamikamal/" style="color:#000000; ">Salman Kamal</a></strong> & <strong><a href="https://www.instagram.com/nanjayasatya/" style="color:#000000; ">Nanjaya Satya</a></strong></mj-text>
+    <mj-text font-family="Open sans, Arial" color="#000000" align="left"> Disunting oleh <strong><a href="https://www.instagram.com/nanjayasatya/" style="color:#000000; ">Nanjaya Satya</a></strong></mj-text>
+    <mj-text font-family="Open sans, Arial" color="#000000" align="left"> Data COVID-19 oleh <strong><a href="https://kawalcovid19.id/" style="color:#000000; ">Kawalcovid19.id</a> </strong>& <strong><a href="https://cekdiri.id/" style="color:#000000; ">Cekdiri.id</a> </strong></mj-text>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#fca49f">
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" color="#000000" align="center"> Email ini dikirimkan untuk <strong><a href="mailto:[Email]" style="color:#000000; text-decoration:none;">[Email]</a> </strong></mj-text>
+    <mj-text font-family="Open sans, Arial" color="#000000" align="center"> Belum mendaftar dan tertarik menerima email dari kami? Daftar di <a href="https://pukulenam.id/" style="color:#000000;"><strong>sini</strong></a> </mj-text>
+    <mj-text font-family="Open sans, Arial" color="#000000" align="center"> Tidak ingin menerima email serupa di kemudian hari? klik <strong><a href="[unsubscribe]" style="color:#000000;">berhenti berlangganan</a></strong> </mj-text>
+     
+  </mj-column>
+</mj-section>
+       
+<mj-section background-color="#fca49f" border-top="solid 1px">
+  <mj-column>
+  <mj-text font-family="Open sans, Arial" color="#000000" align="center"> © [currentyear] <strong>PukulEnam.</strong></mj-text>
+    <mj-text font-family="Open sans, Arial" color="#000000" align="center"> <a href="https://pukulenam.id/" style="color:#000000; text-decoration:none; ">Jalan Pemuda III No 22 Renon, Denpasar Selatan, Bali 80226</a></mj-text>
+     </mj-column>
+</mj-section>
+       
+       
+<mj-section background-color="#ffffff">
+  <mj-column>
+    <mj-image width="200px" href="https://aws.amazon.com/what-is-cloud-computing" src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/aws_logo.png" alt="Powered by AWS" alt="Powered by AWS"/>
+  </mj-column>
+</mj-section>

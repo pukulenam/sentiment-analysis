@@ -1,0 +1,119 @@
+<mj-section background-color="#fca49f">
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" color="#000000" align="center">
+      Email tidak terlihat seperti semestinya? klik di <a href="[webversion]" style="color:#000000;"><strong>sini</strong></a> untuk versi web
+    </mj-text>
+    <mj-text font-family="Open sans, Arial" color="#000000" align="center">
+      Jumat, 18 Februari 2022
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+
+<mj-section background-color="#ffffff">
+  <mj-column>
+    <mj-image width="250px" src="https://pukulenam.s3.ap-southeast-1.amazonaws.com/email/logo_typeface_center.png" alt="Logo PukulEnam" />
+
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff">
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify">
+      Selamat pagi yang cerah, <strong>[Name]!</strong> <br></br>
+
+      PukulEnam Newsletter hari ini memuat berita utama terhangat diantaranya :
+      <ol>
+        <li>MOVFOR, antivirus khusus COVID-19 pertama di Indonesia resmi beredar 🤩 💊 <strong>(Kesehatan💊)</strong></li>
+        <li>Indomaret timbun minyak goreng? <strong>(Finansial💵)</strong></li>
+        <li>Mbappe berubah pikiran, kini enggan ke Real Madrid. <strong>(Olahraga🎖️)</strong></li>
+
+
+      </ol>
+
+      Jangan lupa untuk cek MK;SA Corner dibawah ya!
+      <br></br>
+      Selamat membaca dan semoga harimu menyenangkan!
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section>
+  <mj-column>
+    <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" />
+  </mj-column>
+</mj-section>
+<!-- DATA COVID-19 -->
+
+<mj-section>
+  <mj-column>
+
+    <mj-text font-family="Open sans, Arial" font-size="18px" align="center">
+      <strong>Data COVID-19 Indonesia</strong>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section>
+
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" font-size="16px" color="#022dbd" line-height="2" align="center">
+      4.966.046 <br>
+      <strong>Konfirmasi <a style="font-size:20px;">😷</a></strong>
+    </mj-text>
+
+  </mj-column>
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" font-size="16px" color="#eb4034" line-height="2" align="center">
+      145.622 <br>
+      <strong>Meninggal <a style="font-size:20px;">💀</a></strong>
+
+    </mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" font-size="16px" color="#029100" line-height="2" align="center">
+      4.375.234 <br>
+      <strong>Sembuh <a style="font-size:20px;">😊</a></strong>
+    </mj-text>
+  </mj-column>
+
+
+</mj-section>
+
+<!-- DATA VAKSINASI -->
+<mj-section>
+  <mj-column>
+
+    <mj-text font-family="Open sans, Arial" font-size="18px" align="center">
+      <strong>Data Vaksinasi COVID-19 Indonesia</strong>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section>
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" font-size="16px" color="#022dbd" line-height="2" align="center">
+      [Indo-TotalSasaran] <br>
+      <strong>Total Sasaran <a style="font-size:20px;">😀</a></strong>
+    </mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" font-size="16px" color="#eb4034" line-height="2" align="center">
+      [Indo-Vaksinasi1] <br>
+      <strong>Vaksinasi Ke-1 <a style="font-size:20px;">💉</a></strong>
+    </mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" font-size="16px" color="#029100" line-height="2" align="center">
+      [Indo-Vaksinasi2] <br>
+      <strong>Vaksinasi Ke-2 <a style="font-size:20px;">💉</a></strong>
+
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section>
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" font-size="12px" align="center">
+      Per 18 Februari [currentyear] 02:00:00 +07:00
+    </mj-text>
+  </mj-column>
+</mj-section>

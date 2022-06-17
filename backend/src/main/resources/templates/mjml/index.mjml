@@ -1,0 +1,231 @@
+<mjml>
+  <mj-head>
+     
+    <mj-attributes>
+      <mj-text align="center" color="#555" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-include path="./header.mjml" />
+    
+   
+    <!-- START CONTENT -->
+    
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#fff" border-radius="20px">
+   
+      <mj-column>
+        <mj-text font-family="Open sans, Arial" color="#f85f56" align="left" font-size="22px" font-weight="bold">
+         Kesehatan {{ text }}
+        </mj-text>
+        <mj-text font-family="Open sans, Arial" align="left" font-size="22px">
+MOVFOR, antivirus khusus COVID-19 pertama di Indonesia resmi beredar 🤩💊
+        </mj-text>
+        <mj-image width="350px" src="https://media.suara.com/pictures/653x366/2022/02/16/26763-obat-covid-19-molnupiravir-sudah-hadir-di-indonesia.jpg" alt="Gambar Artikel" border-radius="10px">
+        </mj-image>
+        <mj-text font-family="Open sans, Arial" font-weight="bold" font-size="15px" font-style="italic" align="center">
+          Sumber gambar : Amarox Pharma
+         </mj-text>
+        
+        <mj-text font-family="Open sans, Arial"  font-size="17px" line-height="1.5" align="center">
+        <strong> MK;SA (Mager Kepanjangan, Singkat Aja)</strong>
+          <br>Intinya… Pada 13 Januari 2022, BPOM menerbitkan Emergency Use Authorization (EUA) untuk obat molnupiravir. PT Amarox Pharma Global bersama PT Parit Padang Global melakukan produksi dan pendistribusian molnupiravir dengan merk MOVFOR.
+        </mj-text>
+       
+        <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify">
+    Keadaan pandemi COVID-19 di Indonesia menuntut upaya strategis dan cepat untuk mengatasinya.  Varian Omicron yang dengan cepat menyebar membuat Indonesia memasuki gelombang ketiga sehingga diperlukan penyediaan vaksinasi booster dan juga obat COVID-19.<br></br>
+Sebelumnya pada 13 Januari 2022, Badan POM telah menerbitkan Emergency Use Authorization (EUA) untuk obat molnupiravir. Obat molnupiravir yang didaftarkan oleh PT. Amarox Pharma Global dan diproduksi oleh Heter Labs. Ltd., India berupa kapsul 200 mg. Obat ini dapat diberikan kepada pasien COVID-19 ringan sampai sedang yang berusia 18 tahun ke atas yang tidak memerlukan pemberian oksigen dan memiliki peningkatan risiko menjadi infeksi COVID-19 berat. Obat ini dikonsumsi 2 kali sehari sebanyak 4 kapsul (@200 mg) selama 5 hari.<br></br>
+Berdasarkan hasil evaluasi dari aspek keamanan, pemberian molnupiravir relatif aman dan memberikan efek samping yang dapat ditoleransi. Dalam mendukung ketersediaan obat COVID-19 di Indonesia, PT. Amarox Pharma Global melakukan produksi lokal molnupiravir kapsul melalui teknologi transfer di fasilitas produksi Amarox Cikarang.<br></br>
+          
+         Varian Omicron yang mendominasi kasus COVID-19 saat ini juga menyerang orang yang telah mendapatkan vaksin. Satgas COVID-19 mencatat ada tambahan 63.956 kasus baru infeksi COVID-19 pada 16 Februari 2022 yang mana lebih tinggi daripada kasus harian saat gelombang kedua yang disebabkan oleh varian Delta. Hadirnya molnupiravir dengan nama merk MOVFOR diharapkan memberikan angin segar untuk mengatasi COVID-19 di Indonesia.<br></br>
+
+
+        </mj-text>
+          
+           <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="center">
+             General Manager PT Amarox Pharma Global (Hetero), Sandeep Sur, mengungkapkan bahwa MOFVOR telah dipasarkan dan digunakan untuk mengobati pasien COVID-19 di India dan di beberapa negara ASEAN. “Berdasarkan hasil uji klinis fase 3, Molnupiravir efektif pada varian virus SARS-CoV-2 yang ada saat ini dan berpotensi menghambat infeksi varian Omicron SARS-CoV-2 dengan hasil RT-PCR viral clearance 100 % pada hari ke-5,” ungkap Sandeep Sur dalam keterangan tertulisnya.<br></br>
+“Bekerjasama dengan PT. Parit Padang Global, kami berkomitmen untuk memastikan stok dan supply Molnupiravir di Indonesia dapat terdistribusi serta menjangkau seluruh fasilitas-fasilitas kesehatan di Indonesia, sehingga kehadiran MOVFOR dapat segera menekan laju pertambahan kasus COVID-19 di Indonesia,” ujar Heny Sulistyaningsih, Senior Product Manager PT. Amarox Pharma Global
+          </mj-text>
+          
+           <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify">
+             Sales & Product Group Manager PT Parit Padang Global, Donny Satria menyatakan MOVFOR telah didistribusikan di 25 cabang PT. Parit Padang Global yang akan menjangkau 34 provinsi di Indonesia. MOVFOR mendapat sambutan positif di berbagai kota terlihat dari tingginya permintaan MOVFOR oleh berbagai fasilitas kesehatan dan layanan penyediaan obat.<br></br>
+             <strong>Bagaimana dengan Paxlovid?
+</strong><br>
+             Paxlovid merupakan antivirus khusus Covid-19 yang dikeluarkan oleh perusahaan Pfizer. Paxlovid memang mendapatkan persetujuan lebih dulu dari Food and Drug Administration (FDA) Amerika Serikat dibandingkan Molnupiravir. Paxlovid memperoleh persetujuan pada 22 Desember, sedangkan Molnupiravir sehari setelahnya, 23 Desember 2021.<br></br>
+          </mj-text>
+             
+              <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="center">
+                "Jadi, memang Paxlovid belum ada izin penggunaan darurat (Emergency Use Authorization/EUA) di Indonesia. Kenapa kita beli Molnupiravir dulu? Karena sudah keluar EUA dan approval dari Centers for Disease Control and Prevention (CDC) juga," terang Menteri Kesehatan Budi Gunadi di Gedung DPR RI, Senayan, Jakarta pada Selasa, 18 Januari 2022.<br></br>
+"Kalau Paxlovid baru keluar approval dari CDC-nya belakangan dari Molnupiravir dan masih menunggu EUA-nya dari Badan Pengawas Obat dan Makanan (BPOM) RI."<br></br>
+
+             </mj-text>
+          
+        <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="center">
+         <strong>Sumber : [1] [2] [3] [4]</strong>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+      
+       <mj-section>
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#fff" border-radius="20px">
+   
+      <mj-column>
+        <mj-text font-family="Open sans, Arial" color="#f85f56" align="left" font-size="22px" font-weight="bold">
+          Finansial
+        </mj-text>
+        <mj-text font-family="Open sans, Arial" align="left" font-size="22px">
+     Indomaret timbun minyak goreng?
+        </mj-text>
+        <mj-image  width="350px" src="https://pict.sindonews.net/dyn/732/pena/news/2022/02/16/34/687493/viral-indomaret-pringsewu-diduga-timbun-minyak-goreng-begini-penjelasan-manajemen-zgz.jpg" border-radius="10px">
+        </mj-image>
+        <mj-text font-family="Open sans, Arial" font-weight="bold" font-size="15px" font-style="italic" align="center">
+          Sumber gambar : Sindo News
+         </mj-text>
+        
+        <mj-text font-family="Open sans, Arial"  font-size="17px" line-height="1.5" align="center">
+        <strong> MK;SA (Mager Kepanjangan, Singkat Aja)</strong>
+          <br>Intinya...Di tengah kelangkaan minyak goreng ini, Indomaret, selaku ritel minimarket besar di Indonesia, justru diduga menimbun minyak goreng. Namun, ternyata bukan ditimbun, melainkan untuk keperluan dagangan mereka.
+        </mj-text>
+       
+        <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify">
+  			Sebagai salah satu ritel minimarket waralaba besar di Indonesia, Indomaret justru dicurigai menimbun minyak goreng di tengah kelangkaan bahan pokok yang satu itu.<br></br>
+<strong>Kok bisa? Bagaimana awal mulanya?</strong><br>
+          Jadi, peristiwa ini dimulai dari isu kelangkaan minyak goreng di masyarakat. Kelangkaan ini hampir dirasakan oleh seluruh lapisan masyarakat Indonesia, dari yang berada di kota-kota besar hingga kota tier di bawahnya.<br></br>
+Hal tersebut lah yang menggerakan Satuan Polisi Praja (Pol PP), Dinas Perindag, dan DPRD Pringsewu untuk melakukan inspeksi dadakan (sidak) di Jalan Jendral Sudirman, Pringsewu, Lampung. Sidak dilakukan pada 14 Februari 2022.<br></br>
+          <strong>Ada puluhan liter minyak goreng yang dicurigai ditimbun Indomaret</strong><br>
+          Dalam sidak yang dilakukan DPRD Pringsewu, Pol PP, dan Dinas Perindag, ditemukan total 66 liter minyak goreng dari gerai Indomaret. Sebanyak 32 liter ditemukan untuk stok toko Jenderal Sudirman dan 22 liter stok toko Jalan Ahmad Yani.<br></br>
+          <strong>Bukan ditimbun, ternyata untuk goreng ayam dagangannya</strong><br>
+          Roy N Mandey, selaku Ketua Asosiasi Peritel Indonesia (Aprido) menyangkal tuduhan penimbunan minyak goreng yang dilayangkan ke Indomaret. Dirinya mengatakan bahwa stok yang ditemukan di dapur gerai Indomaret adalah minyak goreng untuk produksi dagangan Indomaret, yakni Yummy Fried Chicken dari Indomaret Plus.<br></br>
+
+          </mj-text>
+          
+          <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="center">
+            “Yang ditemukan itu bukan penimbunan, tetapi stok minyak goreng untuk usahanya Indomaret Plus yang menjual ayam goreng untuk konsumennya,” terang Roy (15/2/2022).<br></br>
+          </mj-text>
+          
+            <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify">
+          PT Indomarco Prismatama (Indomaret Group) pun mengeluarkan pernyataan yang senada. Melalui Direktur Marketing, Darmawi Alie, pihak Indomaret memberikan penjelasan senada dengan Roy, bahwa minyak goreng tersebut adalah bahan untuk kebutuhan produksi dagangan mereka.<br></br>
+Darmawi menerangkan bahwa selain menjual barang pokok, Indomaret turut memenuhi kebutuhan masyarakat Indonesia dengan penyediaan makanan siap saji, seperti Yummy Fried Chicken.<br></br>
+
+          </mj-text>
+          
+          <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="center">
+            “Produk siap saji ini membutuhkan bahan baku minyak goreng. Dan produk yang disimpan di dekat dapur area gerai tidak dijual karena peruntukannya untuk menggoreng ayam Yummy Fried Chicken,” jelas Darmawi (15/2/2022).<br></br>
+          </mj-text>
+          
+                      <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify">
+          <strong>Nggak akan menimbun, sebab …</strong><br>
+
+          </mj-text>
+                        
+                          <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="center">
+            “Gudang di gerai Indomaret sangat terbatas sehingga tidak mungkin ada penimbunan. Dan kami tidak terbesit sedikitpun untuk menahan minyak goreng,” ungkap Darmawi.<br></br>
+“Dalam berusaha (berdagang), kami tetap konsisten mendukung kebijakan minyak goreng pemerintah dan sesuai arahan Aprindo,” tutupnya.<br></br>
+
+          </mj-text>
+          
+        <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="center">
+         <strong>Sumber : [1] [2] [3] [4]</strong>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+    
+     <mj-section background-color="#fff" border-radius="20px">
+   
+      <mj-column>
+        <mj-text font-family="Open sans, Arial" color="#f85f56" align="left" font-size="22px" font-weight="bold">
+         Olahraga
+        </mj-text>
+        <mj-text font-family="Open sans, Arial" align="left" font-size="22px">
+Mbappe berubah pikiran, kini enggan ke Real Madrid
+        </mj-text>
+        <mj-image width="350px" src="https://akcdn.detik.net.id/community/media/visual/2022/02/17/mbappe_169.jpeg?w=700&q=90" alt="Gambar Artikel" border-radius="10px">
+        </mj-image>
+        <mj-text font-family="Open sans, Arial" font-weight="bold" font-size="15px" font-style="italic" align="center">
+          Sumber gambar : Detik Sport
+         </mj-text>
+        
+        <mj-text font-family="Open sans, Arial"  font-size="17px" line-height="1.5" align="center">
+        <strong> MK;SA (Mager Kepanjangan, Singkat Aja)</strong>
+          <br>Intinya… Kemenangan Paris Saint-Germain 1-0 atas Real MAdrid mengubah pendirian Kylian Mbappe. Bintang PSG itu kini dilaporkan enggan pindah ke Real Madrid.
+        </mj-text>
+       
+        <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify">
+   Mbappe memimpin PSG saat berjumpa Madrid di leg 1 babak 16 besar Liga Champions, kemarin. Tidak sedikit yang menganggap itu adalah laga ‘audisi’ penyerang berusia 23 tahun itu sebelum berkostum El Real setelah kontraknya selesai pada Juni mendatang.<br></br>
+Pada prosesnya Mbappe menjadi mimpi buruk Madrid di sepanjang pertandingan. Mbappe tercatat membuat empat tembakan on target, atau setengah dari total 8 percobaan PSG ke gawang Los Blancos. DIa juga membuat 18 sentuhan di kotak penalti lawan sebelum menentukan kemenangan timnya dengan mencetak gol cantik di penghujung permainan.<br></br>
+Namun, penampilan dominan Mbappe melawan Real Madrid itu rupanya terpengaruh pada masa depannya. Laporan resmi media Spanyol Sport, menyebutkan pemenang medali juara Piala Dunia 2018 itu sangat frustasi dengan kualitas Madrid saat ini. 
+Untuk itu Mbappe memutuskan untuk menunggu dan mempertimbangkan keputusan. Jika rumor ini bukan isapan jempol belaka, maka ini akan menjadi pukulan hebat bagi Presiden Madrid, Florentino Perez, yang ngebet ingin Mbappe ke Santiago Bernabeu. <br></br>
+
+        </mj-text>
+      
+        <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="center">
+         <strong>Sumber : [1] </strong>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+       
+     
+       
+       <mj-section>
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+    
+     
+          
+          <mj-section background-color="#ffffff" >
+  <mj-column>
+    <mj-text font-family="Open sans, Arial" color="#f85f56" align="left" font-size="20px" font-weight="bold" >
+          Ada apa lagi nih? (MK;SA Corner)
+        </mj-text>
+     <mj-text font-family="Open sans, Arial" font-size="15px" line-height="2" align="justify" >
+				<ul>
+       <li>Tim Jaksa Penyidik Kejaksaan Agung melakukan pemeriksaan terhadap dua orang saksi yang terkait dengan dugaan tindak pidana korupsi dalam pengadaan pesawat udara PT. Garuda Indonesia (Persero) Tbk. Tahun 2011-2021.</li><br>
+          <li>Presiden Emmanuel Macron mengumumkan bahwa Prancis dan sekutunya dalam pasukan Eropa akan menarik pasukan mereka dari Mali setelah hampir satu dekade.
+</li><br>
+          <li>Ahli Nutrisi menjelaskan bahwa penggunaan margarin untuk menggoreng makanan sebagai pengganti minyak goreng bisa berdampak buruk pada kesehatan oleh karena kandungan asam lemak trans yang tinggi.
+</li><br>
+          <li>Israel telah menembakkan beberapa rudal yang menargetkan bagian selatan ibukota Suriah Damaskus. Hal ini merupakan kali kedua israel menembakkan Rudal ke Suriah bulan ini.
+</li><br>      
+           <li>Michael Masi telah dicopot sebagai direktur balapan F1 yang merupakan bagian dari restrukturisasi pada badan pengatur FIA setelah Grand Prix Abu Dhabi tahun lalu.
+</li><br>
+          <li>Sebuah perusahaan kereta api di Arab Saudi merekrut 30 masinis, mereka mengatakan telah menerima 28.000 pendaftar.
+</li><br>
+          <li>Seorang pria Inggris berusia 35 tahun disebut sebagai korban serangan hiu yang fatal pertama di Sydney setelah hampir 60 tahun.
+</li>
+       </ul>
+        </mj-text>
+  </mj-column>
+</mj-section>
+          
+          
+       
+       
+       
+       
+    
+    <!-- END CONTENT -->
+    
+    <mj-include path="./footer.mjml" />
+  </mj-body>
+</mjml>
